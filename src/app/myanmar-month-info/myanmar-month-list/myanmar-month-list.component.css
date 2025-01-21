@@ -1,0 +1,16 @@
+.card {
+  position: absolute;
+  width: 250px;
+  height: 130px;
+  border-radius: 25px;
+  background: whitesmoke;
+  color: black;
+  z-index: 2;
+  transition: .4s ease-in-out;
+}
+
+.card:hover {
+  background-color: #d17878;
+  cursor: pointer;
+  color: white;
+}
